@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Gabriel Thome</div>
+        <div class="logo" onclick="location.href='/'">Gabriel Thome</div>
         <div>
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
@@ -18,9 +18,9 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
-      </nav>
-      <nav id="hamburger-nav">
-        <div class="logo">Gabriel Thome</div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo" onclick="location.href='/'">Gabriel Thome</div>
         <div class="hamburger-menu">
           <div class="hamburger-icon" onclick="toggleMenu()">
             <span></span>
@@ -34,7 +34,27 @@
             <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
           </div>
         </div>
-      </nav>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Gabriel Thome profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Gabriel Thome</h1>
+            <p class="section__text__p2">Full-Stack / Blockchain Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-gabriel-thome-web3.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>    
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My Linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/gabrieltome/'" />
+                <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/thomasdev5832'" />
+            
+            </div>
+        </div>
+    </section>
 
     <script src="script.js"></script>
 </body>
