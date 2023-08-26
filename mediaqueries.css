@@ -98,6 +98,12 @@
     height: 60vw;
     justify-content: center;
   }
+
+  .profile-pic{
+    padding: 0;
+    height: 40vh;
+  }
+
   .section__text__p2 {
     font-size: 1.25rem;
   }
