@@ -75,14 +75,34 @@
     text-decoration: none;
   }
 
+  #contact {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
   .contact-info-upper-container{
+    margin-top: 0rem;
     display: block;
+    border: none;
   }
 
   .contact-info-container {
+    border: 1px solid black;
     flex-direction: column;
-    margin: 0;
+    margin: 1rem;
+    padding: .5rem;
+    border-radius: 10px;
   }
+
+  .contact-info-container:hover{
+    cursor: pointer;
+  }
+
+  .contact-info-container p{
+    margin-top: -.6rem;
+    
+  }
+
   .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
@@ -94,6 +114,7 @@
     font-size: 1.5rem;
   }
   .nav-links {
+    margin-top: 2rem;
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
@@ -113,4 +134,10 @@
     /* text-align: justify; */
     margin: .6rem;
   }
+
+  footer p{
+    margin-top: 5rem;
+    font-size: 11px;
+  }
+
 }
