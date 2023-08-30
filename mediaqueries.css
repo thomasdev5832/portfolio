@@ -75,7 +75,12 @@
     text-decoration: none;
   }
 
+  .contact-info-upper-container{
+    display: block;
+  }
+
   .contact-info-container {
+    flex-direction: column;
     margin: 0;
   }
   .contact-info-container p,
